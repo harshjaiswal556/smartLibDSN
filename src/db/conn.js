@@ -1,10 +1,2 @@
 const mongoose = require("mongoose")
-
-
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/registrationForm',
-{
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useCreateIndex: true,
-  useFindAndModify: false,
-}).then(()=>console.log("connection successful....")).catch((err)=>console.log(err));
+mongoose.connect("mongodb+srv://harshjais3110:hs%203110@cluster0.tq9cf.mongodb.net/registrationForm?retryWrites=true&w=majority",{useNewUrlParser:true},{useUnifiedTopology:true}).then(()=>console.log("connection successful....")).catch((err)=>console.log(err));
