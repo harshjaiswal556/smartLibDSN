@@ -16,6 +16,7 @@
     "express-ejs-layouts": "^2.5.1",
     "hbs": "^4.2.0",
     "mongoose": "^6.1.2",
-    "razorpay": "^2.8.0"
+    "razorpay": "^2.8.0",
+    "validator": "^13.7.0"
   }
 }
